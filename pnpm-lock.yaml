@@ -14,6 +14,22 @@ importers:
 
   packages/mcp-core: {}
 
+  servers/indian-stock-market:
+    dependencies:
+      '@modelcontextprotocol/sdk':
+        specifier: ^1.29.0
+        version: 1.29.0(zod@3.25.76)
+      zod:
+        specifier: ^3.25.76
+        version: 3.25.76
+    devDependencies:
+      '@types/node':
+        specifier: ^26.1.0
+        version: 26.1.0
+      typescript:
+        specifier: ^6.0.3
+        version: 6.0.3
+
   servers/weather:
     dependencies:
       '@modelcontextprotocol/sdk':
